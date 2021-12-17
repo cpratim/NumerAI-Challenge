@@ -1,0 +1,389 @@
+{
+    "2021-07-04 02:01:04": {
+        "correlation": 0.011270346814000076,
+        "loss": "MSELoss",
+        "optimizer": "Adam",
+        "epochs": 1000,
+        "learning_rate": 1e-06,
+        "file": "models/10503087070.model",
+        "architecture": {
+            "conv1": "Conv1d(310, 500, kernel_size=(1,), stride=(1,))",
+            "pool1": "MaxPool1d(kernel_size=1, stride=1, padding=0, dilation=1, ceil_mode=False)",
+            "conv2": "Conv1d(500, 1000, kernel_size=(1,), stride=(1,))",
+            "pool2": "MaxPool1d(kernel_size=1, stride=1, padding=0, dilation=1, ceil_mode=False)",
+            "flatten": "Flatten(start_dim=1, end_dim=-1)",
+            "linear1": "Linear(in_features=1000, out_features=50, bias=True)",
+            "output": "Linear(in_features=50, out_features=1, bias=True)"
+        }
+    },
+    "2021-07-04 02:05:00": {
+        "correlation": 0.01139499634588523,
+        "loss": "MSELoss",
+        "optimizer": "Adam",
+        "epochs": 1000,
+        "learning_rate": 1e-06,
+        "file": "models/1087710129103.model",
+        "architecture": {
+            "conv1": "Conv1d(310, 500, kernel_size=(1,), stride=(1,))",
+            "pool1": "MaxPool1d(kernel_size=1, stride=1, padding=0, dilation=1, ceil_mode=False)",
+            "flatten": "Flatten(start_dim=1, end_dim=-1)",
+            "linear1": "Linear(in_features=500, out_features=50, bias=True)",
+            "output": "Linear(in_features=50, out_features=1, bias=True)"
+        }
+    },
+    "2021-07-04 02:07:49": {
+        "correlation": 0.01617314894606453,
+        "loss": "MSELoss",
+        "optimizer": "Adam",
+        "epochs": 1000,
+        "learning_rate": 1e-05,
+        "file": "models/7963135430.model",
+        "architecture": {
+            "conv1": "Conv1d(310, 500, kernel_size=(1,), stride=(1,))",
+            "pool1": "MaxPool1d(kernel_size=1, stride=1, padding=0, dilation=1, ceil_mode=False)",
+            "flatten": "Flatten(start_dim=1, end_dim=-1)",
+            "linear1": "Linear(in_features=500, out_features=50, bias=True)",
+            "output": "Linear(in_features=50, out_features=1, bias=True)"
+        }
+    },
+    "2021-07-04 02:10:15": {
+        "correlation": 0.010989041227246997,
+        "loss": "MSELoss",
+        "optimizer": "Adam",
+        "epochs": 1000,
+        "learning_rate": 1e-05,
+        "file": "models/78241063896.model",
+        "architecture": {
+            "conv1": "Conv1d(310, 100, kernel_size=(1,), stride=(1,))",
+            "pool1": "MaxPool1d(kernel_size=1, stride=1, padding=0, dilation=1, ceil_mode=False)",
+            "conv2": "Conv1d(100, 200, kernel_size=(1,), stride=(1,))",
+            "pool2": "MaxPool1d(kernel_size=1, stride=1, padding=0, dilation=1, ceil_mode=False)",
+            "flatten": "Flatten(start_dim=1, end_dim=-1)",
+            "linear1": "Linear(in_features=200, out_features=50, bias=True)",
+            "output": "Linear(in_features=50, out_features=1, bias=True)"
+        }
+    },
+    "2021-07-04 02:19:44": {
+        "correlation": 0.01729999490306186,
+        "loss": "MSELoss",
+        "optimizer": "Adam",
+        "epochs": 1000,
+        "learning_rate": 1e-05,
+        "file": "models/18510711163.model",
+        "architecture": {
+            "conv1": "Conv1d(310, 1000, kernel_size=(1,), stride=(1,))",
+            "relu": "ReLU()",
+            "pool1": "MaxPool1d(kernel_size=1, stride=1, padding=0, dilation=1, ceil_mode=False)",
+            "flatten": "Flatten(start_dim=1, end_dim=-1)",
+            "linear1": "Linear(in_features=1000, out_features=50, bias=True)",
+            "output": "Linear(in_features=50, out_features=1, bias=True)"
+        }
+    },
+    "2021-07-04 02:31:56": {
+        "correlation": 0.014489684899028119,
+        "loss": "MSELoss",
+        "optimizer": "Adam",
+        "epochs": 1000,
+        "learning_rate": 1e-05,
+        "file": "models/638791030101.model",
+        "architecture": {
+            "conv1": "Conv1d(310, 500, kernel_size=(1,), stride=(1,))",
+            "relu": "ReLU()",
+            "pool1": "MaxPool1d(kernel_size=1, stride=1, padding=0, dilation=1, ceil_mode=False)",
+            "conv2": "Conv1d(500, 1000, kernel_size=(1,), stride=(1,))",
+            "tanh": "Tanh()",
+            "pool2": "MaxPool1d(kernel_size=1, stride=1, padding=0, dilation=1, ceil_mode=False)",
+            "flatten": "Flatten(start_dim=1, end_dim=-1)",
+            "linear1": "Linear(in_features=1000, out_features=50, bias=True)",
+            "output": "Linear(in_features=50, out_features=1, bias=True)"
+        }
+    },
+    "2021-07-04 02:41:59": {
+        "correlation": 0.003868682841289406,
+        "loss": "MSELoss",
+        "optimizer": "Adam",
+        "epochs": 1000,
+        "learning_rate": 1e-05,
+        "file": "models/42410570039.model",
+        "architecture": {
+            "conv1": "Conv1d(310, 500, kernel_size=(1,), stride=(1,))",
+            "relu": "ReLU()",
+            "pool1": "MaxPool1d(kernel_size=1, stride=1, padding=0, dilation=1, ceil_mode=False)",
+            "conv2": "Conv1d(500, 1000, kernel_size=(1,), stride=(1,))",
+            "tanh": "Tanh()",
+            "pool2": "MaxPool1d(kernel_size=1, stride=1, padding=0, dilation=1, ceil_mode=False)",
+            "flatten": "Flatten(start_dim=1, end_dim=-1)",
+            "linear1": "Linear(in_features=1000, out_features=50, bias=True)",
+            "output": "Linear(in_features=50, out_features=1, bias=True)"
+        }
+    },
+    "2021-07-04 02:44:59": {
+        "correlation": 0.013256464641005728,
+        "loss": "MSELoss",
+        "optimizer": "Adam",
+        "epochs": 1000,
+        "learning_rate": 1e-05,
+        "file": "models/4935483940.model",
+        "architecture": {
+            "linear1": "Linear(in_features=310, out_features=1000, bias=True)",
+            "relu": "ReLU()",
+            "linear2": "Linear(in_features=1000, out_features=50, bias=True)",
+            "output": "Linear(in_features=50, out_features=1, bias=True)"
+        }
+    },
+    "2021-07-04 02:47:33": {
+        "correlation": 0.00921789159734017,
+        "loss": "MSELoss",
+        "optimizer": "Adam",
+        "epochs": 1000,
+        "learning_rate": 1e-06,
+        "file": "models/74110194243.model",
+        "architecture": {
+            "linear1": "Linear(in_features=310, out_features=1000, bias=True)",
+            "relu": "ReLU()",
+            "linear2": "Linear(in_features=1000, out_features=50, bias=True)",
+            "output": "Linear(in_features=50, out_features=1, bias=True)"
+        }
+    },
+    "2021-07-04 02:48:34": {
+        "correlation": 0.014313777379402454,
+        "loss": "MSELoss",
+        "optimizer": "Adam",
+        "epochs": 1000,
+        "learning_rate": 1e-05,
+        "file": "models/60593913410.model",
+        "architecture": {
+            "linear1": "Linear(in_features=310, out_features=1000, bias=True)",
+            "relu": "LeakyReLU(negative_slope=0.01)",
+            "linear2": "Linear(in_features=1000, out_features=50, bias=True)",
+            "output": "Linear(in_features=50, out_features=1, bias=True)"
+        }
+    },
+    "2021-07-04 02:55:25": {
+        "correlation": 0.014630272384367276,
+        "loss": "MSELoss",
+        "optimizer": "Adam",
+        "epochs": 1000,
+        "learning_rate": 1e-05,
+        "file": "models/7170960608.model",
+        "architecture": {
+            "rnn": "RNNCell(310, 500)",
+            "linear1": "Linear(in_features=500, out_features=200, bias=True)",
+            "relu": "LeakyReLU(negative_slope=0.01)",
+            "output": "Linear(in_features=200, out_features=1, bias=True)"
+        }
+    },
+    "2021-07-04 03:02:38": {
+        "correlation": 0.010367793807928608,
+        "loss": "MSELoss",
+        "optimizer": "Adam",
+        "epochs": 1000,
+        "learning_rate": 1e-05,
+        "file": "models/06384901001.model",
+        "architecture": {
+            "rnn": "RNNCell(310, 500)",
+            "linear1": "Linear(in_features=500, out_features=200, bias=True)",
+            "relu": "LeakyReLU(negative_slope=0.01)",
+            "output": "Linear(in_features=200, out_features=1, bias=True)"
+        }
+    },
+    "2021-07-04 03:09:04": {
+        "correlation": 0.0070985041474084815,
+        "loss": "MSELoss",
+        "optimizer": "Adam",
+        "epochs": 1000,
+        "learning_rate": 1e-06,
+        "file": "models/4032777869.model",
+        "architecture": {
+            "rnn": "RNNCell(310, 500)",
+            "linear1": "Linear(in_features=500, out_features=200, bias=True)",
+            "relu": "LeakyReLU(negative_slope=0.01)",
+            "output": "Linear(in_features=200, out_features=1, bias=True)"
+        }
+    },
+    "2021-07-04 03:18:07": {
+        "correlation": 0.010276164227618723,
+        "loss": "MSELoss",
+        "optimizer": "Adam",
+        "epochs": 1000,
+        "learning_rate": 1e-05,
+        "file": "models/10218229713.model",
+        "architecture": {
+            "conv1": "Conv1d(310, 500, kernel_size=(1,), stride=(1,))",
+            "relu": "ReLU()",
+            "flatten": "Flatten(start_dim=1, end_dim=-1)",
+            "rnn": "RNNCell(500, 200)",
+            "linear1": "Linear(in_features=200, out_features=50, bias=True)",
+            "leaky_relu": "LeakyReLU(negative_slope=0.01)",
+            "output": "Linear(in_features=50, out_features=1, bias=True)"
+        }
+    },
+    "2021-07-05 15:48:38": {
+        "correlation": 0.007277197563479942,
+        "loss": "MSELoss",
+        "optimizer": "Adam",
+        "epochs": 1000,
+        "learning_rate": 1e-05,
+        "file": "models/24951001061010.model",
+        "architecture": {
+            "conv1": "Conv1d(310, 300, kernel_size=(1,), stride=(1,))",
+            "relu": "ReLU()",
+            "flatten": "Flatten(start_dim=1, end_dim=-1)",
+            "linear1": "Linear(in_features=300, out_features=50, bias=True)",
+            "leaky_relu": "LeakyReLU(negative_slope=0.01)",
+            "output": "Linear(in_features=50, out_features=1, bias=True)"
+        },
+        "notes": "With Feature Pipeline (standard Scaler)"
+    },
+    "2021-07-05 18:51:35": {
+        "correlation": 0.015212896215756772,
+        "loss": "MSELoss",
+        "optimizer": "Adam",
+        "epochs": 2000,
+        "learning_rate": 1e-06,
+        "file": "models/74243951068.model",
+        "architecture": {
+            "conv1": "Conv1d(310, 500, kernel_size=(1,), stride=(1,))",
+            "pool1": "MaxPool1d(kernel_size=1, stride=1, padding=0, dilation=1, ceil_mode=False)",
+            "relu1": "ReLU()",
+            "conv2": "Conv1d(500, 1000, kernel_size=(1,), stride=(1,))",
+            "relu2": "ReLU()",
+            "pool2": "MaxPool1d(kernel_size=1, stride=1, padding=0, dilation=1, ceil_mode=False)",
+            "flatten": "Flatten(start_dim=1, end_dim=-1)",
+            "linear1": "Linear(in_features=1000, out_features=50, bias=True)",
+            "leaky_relu": "LeakyReLU(negative_slope=0.01)",
+            "output": "Linear(in_features=50, out_features=1, bias=True)"
+        },
+        "notes": "With Feature Pipeline (standard Scaler)"
+    },
+    "2021-07-05 22:02:25": {
+        "correlation": -0.0003302424911770231,
+        "loss": "MSELoss",
+        "optimizer": "Adam",
+        "epochs": 1000,
+        "learning_rate": 1e-06,
+        "file": "models/1002861031036.model",
+        "architecture": {
+            "linear1": "Linear(in_features=310, out_features=500, bias=True)",
+            "linear2": "Linear(in_features=500, out_features=1, bias=True)"
+        },
+        "notes": "With Feature Pipeline (standard Scaler)"
+    },
+    "2021-07-05 22:04:10": {
+        "correlation": 0.006351083540639674,
+        "loss": "MSELoss",
+        "optimizer": "Adam",
+        "epochs": 1000,
+        "learning_rate": 1e-05,
+        "file": "models/10214949196.model",
+        "architecture": {
+            "linear1": "Linear(in_features=310, out_features=500, bias=True)",
+            "linear2": "Linear(in_features=500, out_features=1, bias=True)"
+        },
+        "notes": "With Feature Pipeline (standard Scaler)"
+    },
+    "2021-07-05 22:05:50": {
+        "correlation": 0.01569509573278923,
+        "loss": "MSELoss",
+        "optimizer": "Adam",
+        "epochs": 1000,
+        "learning_rate": 0.0001,
+        "file": "models/709101088055.model",
+        "architecture": {
+            "linear1": "Linear(in_features=310, out_features=500, bias=True)",
+            "linear2": "Linear(in_features=500, out_features=1, bias=True)"
+        },
+        "notes": "With Feature Pipeline (standard Scaler)"
+    },
+    "2021-07-05 22:08:50": {
+        "correlation": 0.017718144945699735,
+        "loss": "MSELoss",
+        "optimizer": "Adam",
+        "epochs": 1000,
+        "learning_rate": 0.0001,
+        "file": "models/4256335962.model",
+        "architecture": {
+            "linear1": "Linear(in_features=310, out_features=500, bias=True)",
+            "relu1": "ReLU()",
+            "linear2": "Linear(in_features=500, out_features=1, bias=True)"
+        },
+        "notes": "With Feature Pipeline (standard Scaler)"
+    },
+    "2021-07-05 22:11:46": {
+        "correlation": 0.021331184440153785,
+        "loss": "MSELoss",
+        "optimizer": "Adam",
+        "epochs": 1000,
+        "learning_rate": 0.0001,
+        "file": "models/7637627814.model",
+        "architecture": {
+            "linear1": "Linear(in_features=310, out_features=500, bias=True)",
+            "relu1": "ReLU()",
+            "linear2": "Linear(in_features=500, out_features=1, bias=True)"
+        },
+        "notes": "With Feature Pipeline (min max scaler)"
+    },
+    "2021-07-05 22:17:20": {
+        "correlation": 0.01632883401638954,
+        "loss": "MSELoss",
+        "optimizer": "Adam",
+        "epochs": 1000,
+        "learning_rate": 0.0001,
+        "file": "models/417410105123.model",
+        "architecture": {
+            "linear1": "Linear(in_features=310, out_features=500, bias=True)",
+            "relu1": "ReLU()",
+            "rnn1": "RNNCell(500, 200)",
+            "linear2": "Linear(in_features=200, out_features=1, bias=True)"
+        },
+        "notes": "With Feature Pipeline (min max scaler)"
+    },
+    "2021-07-06 17:53:53": {
+        "test_correlation": 0.012262997171460474,
+        "train_correlation": 0.011265776984576535,
+        "loss": "MSELoss",
+        "optimizer": "Adam",
+        "epochs": 2000,
+        "learning_rate": 1e-05,
+        "file": "models/39485161024.model",
+        "architecture": {
+            "linear1": "Linear(in_features=310, out_features=500, bias=True)",
+            "relu1": "ReLU()",
+            "dropout": "Dropout(p=0.3, inplace=False)",
+            "linear2": "Linear(in_features=500, out_features=1, bias=True)"
+        },
+        "notes": "With Feature Pipeline (min max scaler)"
+    },
+    "2021-07-06 18:54:24": {
+        "test_correlation": 0.012985627333324286,
+        "train_correlation": 0.15370536470263976,
+        "loss": "MSELoss",
+        "optimizer": "Adam",
+        "epochs": 1000,
+        "learning_rate": 0.0001,
+        "file": "models/59555107313.model",
+        "architecture": {
+            "linear1": "Linear(in_features=310, out_features=700, bias=True)",
+            "relu1": "ReLU()",
+            "rnn1": "RNNCell(700, 200)",
+            "linear2": "Linear(in_features=200, out_features=1, bias=True)"
+        },
+        "notes": "With Feature Pipeline (min max scaler)"
+    },
+    "2021-07-06 19:00:14": {
+        "test_correlation": 0.011328860311083077,
+        "train_correlation": 0.15151434784380435,
+        "loss": "MSELoss",
+        "optimizer": "Adam",
+        "epochs": 1000,
+        "learning_rate": 0.0001,
+        "file": "models/6773544511.model",
+        "architecture": {
+            "linear1": "Linear(in_features=310, out_features=700, bias=True)",
+            "relu1": "ReLU()",
+            "rnn1": "RNNCell(700, 200)",
+            "linear2": "Linear(in_features=200, out_features=1, bias=True)"
+        },
+        "notes": "With Feature Pipeline (min max scaler)"
+    }
+}
